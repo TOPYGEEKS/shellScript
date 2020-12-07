@@ -10,12 +10,12 @@ echo "Install Mysql Server"
 echo "#################################"
 sudo apt-get install mysql-server -y
 echo "#################################"
-echo "Install PHP7.2"
+echo "Install PHP7.3"
 echo "#################################"
-sudo apt-get install php7.2
+sudo apt-get install php7.3
 echo "Install PHP modules"
 echo "#################################"
-sudo  apt-get install php-pear php7.2-curl php7.2-dev php7.2-gd php7.2-mbstring php7.2-zip php7.2-mysql php7.2-xml
+sudo  apt-get install php-pear php7.3-curl php7.3-dev php7.3-gd php7.3-mbstring php7.3-zip php7.3-mysql php7.3-xml
 echo "#################################"
 sudo systemctl restart apache2
 echo "#################################"
